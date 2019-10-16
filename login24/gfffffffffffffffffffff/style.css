@@ -1,0 +1,116 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+.body{
+		background-image: url('pic1.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+}
+
+
+
+ul{
+	color: white;
+	padding-top: 5px;
+	padding-bottom: auto;
+	text-align: center;
+
+}
+
+
+ul li{
+	
+	width: 200px;
+	height: 40px;
+	text-align: center;
+	list-style-type: none;
+	display: inline-block;
+	margin: 0 auto;
+	font-weight: bold;
+	text-transform: uppercase;
+	opacity: .8;
+	line-height: 40px;
+}
+
+ul li a{
+	text-decoration: none;
+	color: snow;
+	padding: 5px 25px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+
+ul li a:hover{
+	color:orangered;
+}
+ul ul{
+	float: left;
+	display: none;
+}
+ul li:hover .Depertment{
+	color: black;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+	display: block;
+}
+
+li ul li ul{
+    
+   float: left;
+	display: block;
+}
+
+
+
+
+
+.menu{
+	
+	max-width: 1200px;
+	max-height: 1200px;
+	margin: auto;
+}
+.menubar{
+	max-width: 1200px;
+	max-height: 1200px;
+	color: white;
+}
+.text{
+	width: 100%;
+	margin-top: 600px;
+	text-transform: uppercase;
+	text-align: center;
+	color: deepskyblue;
+    font-size: 40
+    
+}
+.button
+{
+    margin-top: 5px;
+    margin-left: 1040px;
+}
+
+.btn
+{
+    border: 1px solid orange;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
